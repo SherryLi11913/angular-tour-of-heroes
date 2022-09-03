@@ -1,0 +1,27 @@
+<div class="hero-editor-container">
+    <h2 *ngIf="hero" class="hero-editor-title">
+        {{ hero.name | uppercase }} Details
+    </h2>
+
+    <div *ngIf="hero" class="hero-editor-details">
+        <div class="hero-editor-details-item">
+            ID: {{ hero.id }}
+        </div>
+
+        <div class="hero-editor-details-item">
+            <label class="hero-editor-details-label" for="hero-name">
+                Hero name: 
+            </label>
+            <input 
+                class="hero-editor-details-input" 
+                id="hero-name" 
+                [ngModel]="hero.name"
+                (ngModelChange)="updateHero($event)"
+            />
+        </div>
+    </div>
+
+    <button class="hero-editor-back-btn" (click)="goBack()">
+        Back
+    </button>
+</div>

@@ -1,0 +1,12 @@
+<div class="heroes-container">
+    <h2>My Heroes</h2>
+
+    <ul class="heroes-list">
+        <a *ngFor="let hero of heroes" [routerLink]="['/hero', hero.id]">
+            <li class="heroes-list-item">
+                <span class="heroes-list-item-id">{{ hero.id }}</span>
+                <span class="heroes-list-item-name">{{ hero.name }}</span>
+            </li>
+        </a>
+    </ul>
+</div>

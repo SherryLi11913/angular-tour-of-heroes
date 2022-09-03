@@ -1,0 +1,23 @@
+.hero-editor-details-item {
+    margin: 10px 0;
+}
+
+.hero-editor-details-label {
+    font-weight: 700;
+    color: #425960;
+}
+
+.hero-editor-details-input {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.hero-editor-back-btn {
+    background: #E7E7E7;
+    font-size: 16px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0;
+}

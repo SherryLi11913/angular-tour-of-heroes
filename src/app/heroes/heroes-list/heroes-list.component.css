@@ -1,0 +1,27 @@
+.heroes-list-item {
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.heroes-list-item-id {
+    width: 40px;
+    height: 40px;
+    background: #415061;
+    color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+}
+
+.heroes-list-item-name {
+    width: calc(100% - 40px);
+    height: 40px;
+    padding: 0 20px;
+    background: #EEEEEE;
+    color: #464646;
+    display: flex;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+}
