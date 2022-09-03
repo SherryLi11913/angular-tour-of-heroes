@@ -26,7 +26,7 @@ ng generate component shared/header
 ng generate component shared/hero-editor
 ng generate component heroes/heroes-list
 ng generate component dashboard/top-heroes
-ng genreate service shared/heroes
+ng generate service shared/heroes
 ```
 
 ## Run the App
